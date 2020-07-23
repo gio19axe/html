@@ -5,8 +5,19 @@
 
 a[href^="tel"]::before {
     content: "📞 ";
+
+}
+a[href^="web"]::before {
+    content: "* ";
+
+    p {
+    font-size: 2.3rem;
 }
 
+abbr {
+    font-style: italic;
+    font-weight: 1000;
+}
 </style>
 <p><abbr title="Cascading Style Sheets">datos de contacto</abbr>.</p>
 
