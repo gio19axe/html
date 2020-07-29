@@ -1,0 +1,56 @@
+< html >
+  < cabeza >
+  < meta  charset = " utf-8 " >
+  < title > & lt; input type = "hidden" & gt; ejemplo </ título >
+  < estilo >
+    html {
+      font-family : sans-serif;
+    }
+
+    formulario {
+      ancho : 500 px ;
+    }
+
+    div {
+      pantalla : flex;
+      margen inferior : 10 px ;
+    }
+
+    etiqueta {
+      flexión : 2 ;
+      altura de línea : 2 ;
+      alineación de texto : derecha;
+      relleno derecho : 20 px ;
+    }
+
+    input ,  textarea {
+      flexión : 7 ;
+      font-family : sans-serif;
+      tamaño de fuente : 1.1 rem ;
+      relleno : 5 px ;
+    }
+
+    textarea {
+      altura : 60 px ;
+    }
+
+  </ estilo >
+</ cabeza >
+< cuerpo >
+  < formulario >
+    < div >
+      < label  for = " title " > Título de la publicación: </ label >
+      < input  type = " text " id = " title " name = " title " value = " Mi excelente publicación en el blog " >
+    </ div >
+    < div >
+      < label  for = " content " > Publicar contenido: </ label >
+      < textarea  id = " content " name = " content " >
+Este es el contenido de mi excelente blog. ¡Espero que lo disfruten!
+      </ textarea >
+    </ div >
+    < div >
+      < button  type = " submit " > Actualizar publicación </ button >
+    </ div >
+    < input  type = " hidden " id = " postId " name = " postId " value = " 34657 " >
+  </ form >
+</ cuerpo >
