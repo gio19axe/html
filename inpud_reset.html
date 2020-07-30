@@ -1,0 +1,46 @@
+<style>
+    .output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.controls {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    gap: .7rem;
+}
+
+label {
+    font-size: .8rem;
+    justify-self: end;
+}
+
+input[type='reset'],
+input[type='submit'] {
+    width: 5rem;
+    justify-self: end;
+}
+
+input[type='reset'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+input[type='submit'] {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+</style>
+<form>
+    <div class="controls">
+
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </div>
+</form>
